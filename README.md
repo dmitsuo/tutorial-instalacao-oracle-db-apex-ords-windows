@@ -45,7 +45,7 @@ Essa instalação poderá demorar de 30 a 50 minutos, dependendo do desempenho d
 Executar o script **`15-apex-install.sh`** para fazer a instalação do Oracle Application Express (APEX) versão 23.1.
 Essa instalação poderá demorar de 15 a 30 minutos, dependendo do desempenho do computador local.
 ## Passo 6 - Instalar o ORDS 23.3
-Executar o script **`20-ords-install.sh`** para fazer a instalação do Oracle Application Express (APEX) versão 23.1.
+Executar o script **`20-ords-install.sh`** para fazer a instalação do Oracle REST Data Services (ORDS) versão 23.3.
 ## Passo 7 - Ajustar parâmetros do ORDS 23.3 e Tomcat
 Executar o script **`25-ords-tuning.sh`** para fazer ajustes nos parâmetros do ORDS 23.1.
 ## Passo 8 - Iniciar o Tomcat
