@@ -1,4 +1,5 @@
 # Tutorial para instalação do Oracle Database XE 21c + APEX 23.1 + ORDS 23.3 + Tomcat 9 no Windows 10/11
+Este roteiro descreve os passos necessários para instalar o banco de dados [**Oracle 21c Express Edition (XE)**](https://www.oracle.com/br/database/technologies/appdev/xe.html), juntamente com o [**Oracle Application Express (APEX)**](https://apex.oracle.com/pt-br/) versão **23.1** e o [**Oracle REST Data Services (ORDS)**](https://www.oracle.com/br/database/technologies/appdev/rest.html) versão **23.3** em computadores com sistema operacional Windows 10/11.
 
 # A T E N Ç Ã O: ESTE ROTEIRO DEVE SER UTILIZADO APENAS EM AMBIENTES LOCAIS DE TESTES E DESENVOLVIMENTO E NÃO DEVE E NÃO PODE, DE NENHUMA FORMA, SER UTILIZADO EM AMBIENTES OFICIAIS DE PRODUÇÃO, MUITO MENOS EM AMBIENTES EXPOSTOS PUBLICAMENTE NA INTERNET.
 
