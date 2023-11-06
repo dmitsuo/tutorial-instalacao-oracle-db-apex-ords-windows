@@ -37,7 +37,7 @@ Esse script fará automaticamente o download dos pacotes de software listados ab
     - Site para mais informações: [https://www.oracle.com/br/database/technologies/appdev/rest.html](https://www.oracle.com/br/database/technologies/appdev/rest.html)
 - **Apache Tomcat 9.0.82 - Servlet container utilizado para executar o ORDS**
     - Site para mais informações: [https://tomcat.apache.org/](https://tomcat.apache.org/)
-## Passo 4 - Instalar o banco de dados Oracle no Windows
+## Passo 4 - Instalar o banco de dados Oracle 21c XE no Windows
 Executar o script **`10-oracle-db-install.sh`** para fazer a instalação do banco de dados Oracle 21c XE.<br/>
 Durante a instalação, será preciso definir a senha de administrador do banco de dados (usuários **SYS** e **SYSTEM** do Oracle) a qual, posteriormente, precisará também ser informada na variável **`DB_SERVER_PWD`** do arquivo **`00-set-apex-ords-env.sh`**.<br/>
 Essa instalação poderá demorar de 30 a 50 minutos, dependendo do desempenho do computador local e, após concluída, **O WINDOWS DEVE SER REINICIADO**.
