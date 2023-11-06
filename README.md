@@ -1,5 +1,7 @@
 # Tutorial para instalação do Oracle Database XE 21c + APEX 23.1 + ORDS 23.3 + Tomcat 9 no Windows 10/11
 
+# A T E N Ç Ã O: ESTE ROTEIRO DEVE SER UTILIZADO APENAS EM AMBIENTES LOCAIS DE TESTES E DESENVOLVIMENTO E NÃO DEVE E NÃO PODE, DE NENHUMA FORMA, SER UTILIZADO EM AMBIENTES OFICIAIS DE PRODUÇÃO, MUITO MENOS EM AMBIENTES EXPOSTOS PUBLICAMENTE NA INTERNET.
+
 ## Passo 1 - Baixar e instalar o Git for Windows
 
 Acessar o site [**https://gitforwindows.org**](https://gitforwindows.org/) , baixar e instalar o Git para Windows no computador local.<br/>
