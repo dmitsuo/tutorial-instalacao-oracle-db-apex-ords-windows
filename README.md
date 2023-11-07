@@ -50,8 +50,15 @@ Executar o script **`20-ords-install.sh`** para fazer a instalação do Oracle R
 Executar o script **`25-ords-tuning.sh`** para fazer ajustes nos parâmetros do ORDS 23.1.
 ## Passo 8 - Iniciar o Tomcat
 Executar o script **`30-ords-tomcat-start.sh`** para inicializar o Tomcat que disponibilizará o acesso ao ORDS.<br/>
-Para saber se o Tomcat inicializou com sucesso juntamente com o ORDS, deve haver no console as três mensagens indicadas abaixo:<br/>
-![Tomcat Logs](img/tomcat-logs.png)
+Para saber se o Tomcat inicializou com sucesso juntamente com o ORDS, deve haver no console as mensagens indicadas abaixo:<br/>
+<pre>
+...
+Mapped local pools from C:\Users\user1\tutorial-instalacao-oracle-db-apex-ords-windows\ords-config\databases:
+  /ords/                              => default                        => VALID   
+...
+org.apache.catalina.startup.Catalina.start Server startup in [18547] milliseconds
+...  
+</pre>
 ## Passo 9 - Testar o acesso ao ORDS no navegador
 Acessar no navegador a URL [**http://localhost:8080/ords**](http://localhost:8080/ords) para veriricar a correta execução dos passos acima.<br/>
 Uma tela semelhante à imagem abaixo deve ser exibida.<br/>
