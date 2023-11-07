@@ -12,6 +12,7 @@ cd "$APEX_ORDS_DIR"
 echo
 echo "Fazendo o download do Java JRE ..."
 curl -L -k -o "$JAVA_INSTALL_PACKAGE" "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9.1/${JAVA_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Java JRE ..."
 unzip -q "$JAVA_INSTALL_PACKAGE"
 mv "jdk-17.0.9+9-jre" "$JAVA_HOME"
 
@@ -19,30 +20,35 @@ mv "jdk-17.0.9+9-jre" "$JAVA_HOME"
 echo
 echo "Fazendo o download do Oracle SQLcl ..."
 curl -L -k -o "$SQLCL_INSTALL_PACKAGE" "https://download.oracle.com/otn_software/java/sqldeveloper/${SQLCL_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Oracle SQLcl ..."
 unzip -q "$SQLCL_INSTALL_PACKAGE"
 
 # Download Oracle Database 21c XE
 echo
 echo "Fazendo o download do Oracle Database Express Edition (XE) ..."
 curl -L -k -o "$DB_INSTALL_PACKAGE" "https://download.oracle.com/otn-pub/otn_software/db-express/${DB_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Oracle Database Express Edition (XE) ..."
 unzip -q "${DB_INSTALL_PACKAGE}" -d "${DB_INSTALL_TEMP_DIR}"
 
 # Download APEX 23.1
 echo
 echo "Fazendo o download do Oracle Application Express (APEX) ..."
 curl -L -k -o "${APEX_INSTALL_PACKAGE}" "https://download.oracle.com/otn_software/apex/${APEX_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Oracle Application Express (APEX) ..."
 unzip -q "${APEX_INSTALL_PACKAGE}" -d "${APEX_BASE_DIR}"
 
 # Download ORDS 23.3
 echo
 echo "Fazendo o download do Oracle REST Data Services (ORDS) ..."
 curl -L -k -o "${ORDS_INSTALL_PACKAGE}" "https://download.oracle.com/otn_software/java/ords/${ORDS_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Oracle REST Data Services (ORDS) ..."
 unzip -q "${ORDS_INSTALL_PACKAGE}" -d "${ORDS_HOME}"
 
 # Download Apache Tomcat 9
 echo
 echo "Fazendo o download do Apache Tomcat ..."
 curl -L -k -o "${TOMCAT_INSTALL_PACKAGE}" "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/${TOMCAT_INSTALL_PACKAGE}"
+echo "Descompactando o pacote de instalação do Apache Tomcat ..."
 unzip -q "${TOMCAT_INSTALL_PACKAGE}"
 
 echo 
@@ -59,6 +65,7 @@ echo "set \"JAVA_OPTS=%JAVA_OPTS% -Dconfig.url=$ORDS_CONFIG_WIN\"" >> "$TOMCAT_H
 
 echo
 echo "Todos os downloads foram concluídos com sucesso!"
+echo
 
 echo "Pressione qualquer tecla para continuar..."
 read -n 1 -s
