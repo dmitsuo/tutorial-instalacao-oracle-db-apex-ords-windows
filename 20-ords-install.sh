@@ -27,6 +27,10 @@ set "ORDS_LOGS=%CURDIR%ords-logs"
 --proxy-user-tablespace "${APEX_TABLESPACE}" --proxy-user-temp-tablespace "TEMP" ^
 --schema-tablespace "${APEX_TABLESPACE}" --schema-temp-tablespace "TEMP" --password-stdin < p.txt
 
+echo.
+echo ORDS instalado com sucesso!
+echo.
+
 pause
 
 exit

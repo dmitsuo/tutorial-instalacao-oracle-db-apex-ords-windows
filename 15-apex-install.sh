@@ -83,6 +83,9 @@ cd "%CURDIR%${APEX_BASE_NAME}\apex"
 
 sql -S /nolog @"%CURDIR%apex-install.sql"
 
+echo.
+echo Oracle APEX instalado com sucesso!
+echo.
 pause
 
 exit

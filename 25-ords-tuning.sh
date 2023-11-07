@@ -54,14 +54,15 @@ echo POR FAVOR, NAO FECHE ESTA JANELA. AGUARDE A CONCLUSAO DO PROCESSAMENTO ...
 
 sql -S /nolog @"%CURDIR%ords-fix-gateway-user.sql"
 
+echo.
+echo Ajustes no ORDS realizados com sucesso!
+echo.
+pause
+
 exit
 
 EOF
 
 start "" "ords-fix-gateway-user.bat"
-
-
-echo "Pressione qualquer tecla para continuar..."
-read -n 1 -s
 
 exit
