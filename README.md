@@ -15,7 +15,6 @@ Clonar este repositório para qualquer diretório do computador local, com o com
 ```powershell
 git clone https://github.com/dmitsuo/tutorial-instalacao-oracle-db-apex-ords-windows.git
 
-cd tutorial-instalacao-oracle-db-apex-ords-windows
 ```
 ## **Passo 3 - Baixar os pacotes de instalação**
 Executar o script **`05-download-install-packages.sh`** com o interpretador Bash que foi instalado com o Git for Windows, bastando, para isso, **dar um duplo clique no arquivo por meio do Windows Explorer**.<br/>
