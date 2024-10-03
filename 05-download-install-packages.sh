@@ -47,7 +47,7 @@ unzip -q "${ORDS_INSTALL_PACKAGE}" -d "${ORDS_HOME}"
 # Download Apache Tomcat 9
 echo
 echo "Fazendo o download do Apache Tomcat ..."
-curl -L -k -o "${TOMCAT_INSTALL_PACKAGE}" "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/${TOMCAT_INSTALL_PACKAGE}"
+curl -L -k -o "${TOMCAT_INSTALL_PACKAGE}" "https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.82/bin/${TOMCAT_INSTALL_PACKAGE}"
 echo "Descompactando o pacote de instalação do Apache Tomcat ..."
 unzip -q "${TOMCAT_INSTALL_PACKAGE}"
 
