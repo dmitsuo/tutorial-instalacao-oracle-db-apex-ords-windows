@@ -33,7 +33,7 @@ mkdir -p "${APEX_BASE_DIR}"
 
 # SQLcl
 export SQLCL_HOME="$APEX_ORDS_DIR/sqlcl"
-export SQLCL_INSTALL_PACKAGE="sqlcl-latest.zip"
+export SQLCL_INSTALL_PACKAGE="sqlcl-23.2.0.178.1027.zip"
 
 # Database
 export DB_INSTALL_PACKAGE_BASE_NAME="OracleXE213_Win64"
