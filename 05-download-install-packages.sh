@@ -57,7 +57,7 @@ mv "${APEX_BASE_DIR}/apex/images" "${TOMCAT_HOME}/webapps/i"
 cp "${ORDS_HOME}/ords.war" "${TOMCAT_HOME}/webapps/ords.war"
 
 echo
-echo "Adicionando as variaveis de embiente do ORDS para o Tomcat ..."
+echo "Adicionando as variaveis de ambiente do ORDS para o Tomcat ..."
 ORDS_CONFIG_WIN="$(echo "$ORDS_CONFIG" | sed 's#^/\([a-z]\)\(.*\)#\1:\2#g')"
 JAVA_HOME_WIN="$(echo "$JAVA_HOME" | sed 's#^/\([a-z]\)\(.*\)#\1:\2#g')"
 echo "set \"JAVA_HOME=${JAVA_HOME_WIN}\"" > "$TOMCAT_HOME/bin/setenv.bat"
